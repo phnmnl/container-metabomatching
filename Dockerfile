@@ -14,10 +14,10 @@ RUN apt-get update && \
 	rm -rf /var/lib/{cache,log}/ /tmp/* /var/tmp/*
 
 LABEL software.version="0.2.0"
-LABEL version="0.4.0"
+LABEL version="0.4"
 LABEL software="metabomatching"
 ENV TOOL_VERSION=0.2.0
-ENV CONTAINER_VERSION=0.4.0
+ENV CONTAINER_VERSION=0.4
 ENV TRIGGER_JENKINS=1
 
 # Install metabomatching
