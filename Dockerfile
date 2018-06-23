@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:16.04
 
 MAINTAINER PhenoMeNal-H2020 Project ( phenomenal-h2020-users@googlegroups.com )
 
@@ -14,7 +14,7 @@ RUN apt-get update && \
 	rm -rf /var/lib/{cache,log}/ /tmp/* /var/tmp/*
 
 LABEL software="metabomatching"
-LABEL base.image="ubuntu:xenial"
+LABEL base.image="ubuntu:16.04"
 LABEL decription="metabomatching"
 LABEL website="https://www2.unil.ch/cbg/index.php?title=Metabomatching"
 LABEL documentation="https://github.com/rrueedi/metabomatching/tree/master/documentation"
