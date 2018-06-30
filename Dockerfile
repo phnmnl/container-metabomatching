@@ -21,10 +21,10 @@ LABEL documentation="https://github.com/rrueedi/metabomatching/tree/master/docum
 LABEL documentation="https://github.com/rrueedi/metabomatching"
 LABEL tags="metabomatching"
 LABEL software.version="0.2.1"
-LABEL version="0.4.1"
+LABEL version="0.5"
 
 ENV TOOL_VERSION=0.2.1
-ENV CONTAINER_VERSION=0.4.1
+ENV CONTAINER_VERSION=0.5
 ENV TRIGGER_JENKINS=1
 
 # Install metabomatching
